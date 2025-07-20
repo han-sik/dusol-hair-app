@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  android-builder:
+    build: .
+    volumes:
+      - .:/app
+      - gradle-cache:/root/.gradle
+    environment:
+      - ANDROID_HOME=/opt/android-sdk
+      - ANDROID_SDK_ROOT=/opt/android-sdk
+    command: ./gradlew assembleDebug
+
+volumes:
+  gradle-cache: 
