@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DUSOL HAIR</string>
+    
+    <!-- 메인 화면 -->
+    <string name="take_photo">📸 사진 촬영</string>
+    <string name="upload_photo">🚀 업로드</string>
+    <string name="apply_filter">🎨 필터 적용</string>
+    
+    <!-- 설정 -->
+    <string name="phone_name">폰 이름</string>
+    <string name="server_ip">서버 IP</string>
+    <string name="server_port">서버 포트</string>
+    <string name="security_token">보안 토큰</string>
+    <string name="save_settings">설정 저장</string>
+    
+    <!-- 필터 옵션 -->
+    <string name="brightness">밝기</string>
+    <string name="saturation">채도</string>
+    <string name="contrast">대비</string>
+    <string name="hue">색조</string>
+    <string name="smooth_skin">뽀샤시 피부</string>
+    <string name="vintage_filter">빈티지 필터</string>
+    <string name="warm_filter">따뜻한 필터</string>
+    <string name="cool_filter">시원한 필터</string>
+    <string name="no_filter">필터 없음</string>
+    
+    <!-- 메시지 -->
+    <string name="photo_taken">사진이 촬영되었습니다!</string>
+    <string name="upload_success">업로드 성공!</string>
+    <string name="upload_failed">업로드 실패</string>
+    <string name="settings_saved">설정이 저장되었습니다</string>
+    <string name="please_take_photo">먼저 사진을 촬영해주세요</string>
+    <string name="please_enter_settings">설정을 입력해주세요</string>
+    <string name="invalid_port">포트 번호는 1024-65535 사이여야 합니다</string>
+    <string name="invalid_token">토큰은 6자리 숫자여야 합니다</string>
+    
+    <!-- 힌트 텍스트 -->
+    <string name="hint_phone_name">예: 김원장</string>
+    <string name="hint_server_ip">예: 192.168.0.10</string>
+    <string name="hint_server_port">예: 5050</string>
+    <string name="hint_security_token">6자리 숫자</string>
+    
+    <!-- 기본값 -->
+    <string name="default_port">5000</string>
+    <string name="default_token">123456</string>
+</resources> 

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 벚꽃 테마 색상 -->
+    <color name="cherry_blossom_pink">#FFB7C5</color>
+    <color name="light_pink">#FFE4E1</color>
+    <color name="soft_pink">#FFC0CB</color>
+    <color name="pale_purple">#E6E6FA</color>
+    <color name="lavender">#D8BFD8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="medium_gray">#D3D3D3</color>
+    <color name="dark_gray">#696969</color>
+    <color name="black">#000000</color>
+    
+    <!-- 앱 테마 색상 -->
+    <color name="primary">#FFB7C5</color>
+    <color name="primary_variant">#FF8BA7</color>
+    <color name="secondary">#E6E6FA</color>
+    <color name="secondary_variant">#D8BFD8</color>
+    <color name="background">#FFF8F8</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#FF6B6B</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#333333</color>
+    <color name="on_surface">#333333</color>
+    <color name="on_error">#FFFFFF</color>
+    
+    <!-- 버튼 색상 -->
+    <color name="button_primary">#FFB7C5</color>
+    <color name="button_secondary">#E6E6FA</color>
+    <color name="button_text">#FFFFFF</color>
+    
+    <!-- 카드 색상 -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_border">#FFE4E1</color>
+</resources> 

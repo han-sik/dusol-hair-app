@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DUSOLHAIR" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_variant</item>
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <!-- Error colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        
+        <!-- Custom styles -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/on_background</item>
+        <item name="android:textColorSecondary">@color/dark_gray</item>
+        
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/Widget.DUSOLHAIR.Button</item>
+        <item name="textInputStyle">@style/Widget.DUSOLHAIR.TextInputLayout</item>
+        <item name="cardViewStyle">@style/Widget.DUSOLHAIR.CardView</item>
+    </style>
+    
+    <!-- Custom Button Style -->
+    <style name="Widget.DUSOLHAIR.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/button_primary</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="cornerRadius">25dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+    
+    <!-- Secondary Button Style -->
+    <style name="Widget.DUSOLHAIR.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/button_primary</item>
+        <item name="android:textColor">@color/button_primary</item>
+        <item name="cornerRadius">25dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Text Input Style -->
+    <style name="Widget.DUSOLHAIR.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/button_primary</item>
+        <item name="hintTextColor">@color/button_primary</item>
+        <item name="android:textColorHint">@color/medium_gray</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    
+    <!-- Card View Style -->
+    <style name="Widget.DUSOLHAIR.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="strokeColor">@color/card_border</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    
+    <!-- Spinner Style -->
+    <style name="Widget.DUSOLHAIR.Spinner" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/button_primary</item>
+        <item name="hintTextColor">@color/button_primary</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    
+    <!-- SeekBar Style -->
+    <style name="Widget.DUSOLHAIR.SeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressTint">@color/button_primary</item>
+        <item name="android:thumbTint">@color/button_primary</item>
+        <item name="android:progressBackgroundTint">@color/light_gray</item>
+    </style>
+</resources> 
